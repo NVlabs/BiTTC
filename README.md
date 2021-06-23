@@ -1,4 +1,9 @@
+## BiTTC &mdash; Official PyTorch Implementation<br>
+
+![Teaser image](data/teaser.gif)<br>
+
 **Binary TTC: A Temporal Geofence for Autonomous Navigation**<br>
+*CVPR 2021 (Oral), Best Student Paper Honorable Mention*<br>
 Abhishek Badki, Orazio Gallo, Jan Kautz, and Pradeep Sen<br>
 
 ## Abstract: 
@@ -12,6 +17,15 @@ http://arxiv.org/abs/2101.04777<br>
   <img src="https://img.youtube.com/vi/uUQJcjyerM4/0.jpg" width="300"/>
 </a>
 
+## Citing BiTTC:
+    @InProceedings{badki2021BiTTC,
+    author = {Badki, Abhishek and Gallo, Orazio and Kautz, Jan and Sen, Pradeep},
+    title = {{B}inary {TTC}: {A} Temporal Geofence for Autonomous Navigation},
+    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year = {2021}
+    }
+
+or the arXiv paper
 
     @InProceedings{badki2021BiTTC,
     author = {Badki, Abhishek and Gallo, Orazio and Kautz, Jan and Sen, Pradeep},
@@ -19,3 +33,37 @@ http://arxiv.org/abs/2101.04777<br>
     booktitle = {arXiv preprint	arXiv:2101.04777},
     year = {2021}
     }
+
+
+## Code:<br>
+
+### License
+
+Copyright 2021 NVIDIA CORPORATION & AFFILIATES
+
+Licensed under the [NVIDIA Source Code License](LICENSE.md)
+
+### Setup
+
+#### Conda
+All dependencies will be installed automatically using the following:
+```
+conda env create -f env/bittc_conda_env.yml 
+```
+You can activate the environment by running:
+```
+conda activate bittc
+```
+
+### Pre-trained models
+Download the pre-trained models [here](https://drive.google.com/file/d/1YwtUb1UQtADOPVGGhf6_LMUF67MZ8Vu_/view?usp=sharing).
+
+### Run the demo
+
+```
+cd src
+# RUN DEMO FOR BINARY TTC AND OF ESTIMATION
+bash run_binary_demo.sh
+# RUN DEMO FOR CONTINUOUS TTC AND OF ESTIMATION
+bash run_continuous_demo.sh
+```
