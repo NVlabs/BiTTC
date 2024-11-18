@@ -56,7 +56,7 @@ conda activate bittc
 ```
 
 ### Pre-trained models
-Download the pre-trained models [here](https://drive.google.com/file/d/1YwtUb1UQtADOPVGGhf6_LMUF67MZ8Vu_/view?usp=sharing).
+Download the pre-trained models [here](https://drive.google.com/file/d/1YjotthiLZOLtED8PkZ5NbL6zdOQo-Ovx).
 
 ### Run the demo
 
